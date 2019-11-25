@@ -12,13 +12,7 @@ https://drive.google.com/file/d/1q5VVCCreOuXsujRzZkBAv12WJ1KZvQ0I/view
 * Change Token in [Line 2](https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud/blob/master/src/.constants.js)
 * Create a Folder inside you Google Drive, open it and Copy it's ID.
 * For `https://drive.google.com/drive/folders/1p7pHhSh2yboWePmo53DnVr3xkAYiojP9` `1p7pHhSh2yboWePmo53DnVr3xkAYiojP9` is ID.
-* Set up OAuth:
-* Visit the Google Cloud Console
-* Go to the OAuth Consent tab, fill it, and save.
-* Go to the Credentials tab and click Create Credentials -> OAuth Client ID
-* Choose Other and Create.
-* Use the download button to download your credentials.
-* Move that file to the root of this diretory, and rename it to client_secret.json (already added my own, you can change if you like)
+* client_secret.json already added. Don't change unless you know what you're doing.
 * Start an EC2 AWS Virtual Machine or Your Own Linux Machine.
 * `sudo apt update`
 * `sudo apt upgrade`
