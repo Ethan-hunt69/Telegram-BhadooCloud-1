@@ -17,7 +17,7 @@ Original Docs by Creator at [creators-ReadMe.md](https://github.com/ParveenBhado
 * Go to the Credentials tab and click Create Credentials -> OAuth Client ID
 * Choose Other and Create.
 * Use the download button to download your credentials.
-* Move that file to the root of this diretory, and rename it to client_secret.json
+* Move that file to the root of this diretory, and rename it to client_secret.json (already added my own, you can change if you like)
 * Start an EC2 AWS Virtual Machine or Your Own Linux Machine.
 * `sudo apt update`
 * `sudo apt upgrade`
