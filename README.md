@@ -3,7 +3,7 @@
 Original Docs by Creator at [creators-ReadMe.md](https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud/blob/master/creators-ReadMe.md)
 
 ## Watch Video
-http://bit.ly/34jNaTd (being processed for HD Quality)
+https://youtu.be/hfVBSM-EixA
 
 ## Basic Documentation
 
