@@ -20,7 +20,7 @@ https://drive.google.com/file/d/1q5VVCCreOuXsujRzZkBAv12WJ1KZvQ0I/view
 * `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 * `sudo apt install nodejs`
 * `sudo npm install -g typescript`
-* `git clone https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud` Change this url to your fork url.
+* `git clone https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud`    Change this url to your fork url.
 * `cd Telegram-BhadooCloud`
 * `sudo npm install`
 * `sudo tsc`
@@ -50,13 +50,13 @@ Note: You must change git url in [Docker File](https://github.com/ParveenBhadooO
 * Paste it in .constants.js file GDrive Directory Value.
 * Download repo to your drive locally. (for windows right click in directory and open bash)
 * Login to Heroku CLI
-* `cd /d d:` // to change directory in windows here d: is D Directory changing from C.
+* `cd /d d:`    to change directory in windows here d: is D Directory changing from C.
 * `heroku login`
 * `heroku git:remote -a xxxx`
 * `heroku stack:set container`
 * `git add -f credentials.json src/.constants.js aria.sh client_secret.json`
 * `git commit -m 'try commit'`
-* `git commit -am "make it better"` //commit any changes
+* `git commit -am "make it better"`    commit any changes
 * `git push heroku HEAD:master --force`
 * `heroku ps:scale worker=0`
 * `heroku ps:scale worker=1`
