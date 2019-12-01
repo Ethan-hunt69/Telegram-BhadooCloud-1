@@ -592,7 +592,7 @@ function driveUploadCompleteCallback(err: string, gid: string, url: string, file
   if (err) {
     var message = err;
     console.error(`${gid}: Failed to upload - ${filePath}: ${message}`);
-    finalMessage = `${fileName}</code> is uploaded to Team Drive.\n\nThis bot is in beta stage. Means there is 99% possibility your file is directly uploaded in Team Drive Bot1 Folder. If not check after 5 minutes. Check Pinned Post to Join Team Drive.`;
+    finalMessage = `File: <code>${fileName}</code> is uploaded to Team Drive.\n\nThis bot is in beta stage. Means there is 99% possibility your file is directly uploaded in Team Drive Bot1 Folder. If not check after 5 minutes. Check Pinned Post to Join Team Drive.\nIncase you cannot find your files this could be the error. \n${message}`;
     cleanupDownload(gid, finalMessage);
   } else {
     console.log(`${gid}: Uploaded `);
