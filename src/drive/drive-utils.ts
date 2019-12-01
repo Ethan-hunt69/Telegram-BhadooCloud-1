@@ -21,7 +21,6 @@ export function getPublicUrlRequestHeaders(size: number, mimeType: string, token
       'Authorization': `Bearer ${token}`
     },
     body: {
-      supportsAllDrives: true,
       name: fileName,
       mimeType: mimeType,
       parents: [parent]
