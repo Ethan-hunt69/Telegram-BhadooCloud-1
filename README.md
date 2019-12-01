@@ -1,4 +1,4 @@
-# @BhadooCloud : Telegram Torrent Drive Bot
+# Bhadoo Cloud Testing
 
 Original Docs by Creator at [creators-ReadMe.md](https://github.com/ParveenBhadooOfficial/Telegram-BhadooCloud/blob/master/creators-ReadMe.md)
 
